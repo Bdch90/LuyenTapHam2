@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<script>
+    var x = parseInt(prompt('Nhập vào số thứ nhất'));
+    var y = parseInt(prompt('Nhập vào số thứ hai'));
+    var z = parseInt(prompt('Nhập vào số thứ ba'));
+    check(x,y,z);
+    function check(x,y,z)
+    {
+        if (x<y)
+        {
+            if(x<z)
+            {
+                alert(x +' là số nhỏ nhất');
+            }
+            else
+            {
+                alert(z +' là số nhỏ nhất');
+            }
+        }
+        else if(y<x)
+        {
+            if(y<z)
+            {
+                alert(y +' là số nhỏ nhất');
+            }
+            else
+            {
+                alert(z +' là số nhỏ nhất');
+            }
+
+        }
+    }
+</script>
+</body>
+</html>
