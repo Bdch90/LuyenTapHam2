@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Giai thừa của 1 số</title>
+</head>
+<body>
+    <script>
+        var ket_qua=1;
+        giai_thua();
+        alert(ket_qua);
+        function giai_thua()
+        {
+            var x =parseInt(prompt('Nhập vào số bất kỳ'));
+
+            for (let y = 1;y<=x;y++)
+            {
+                ket_qua =ket_qua*y;
+            }
+
+        }
+    </script>
+</body>
+</html>
