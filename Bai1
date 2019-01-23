@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>BinhPhuong</title>
+</head>
+<body>
+    <script>
+
+        function ket_qua() {
+            var x =parseInt(prompt('đưa vào 1 số :'));
+            ket_qua =x*x;
+            return ket_qua;
+        }
+        var ket_qua;
+        ket_qua();
+        alert(ket_qua);
+    </script>
+</body>
+</html>
