@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>ký tự đưa vào có phải là nguyên âm không</title>
+</head>
+<body>
+    <script>
+        check();
+        function check()
+        {
+            var x = prompt('nhập vào 1 ký tự kiểm tra');
+            if(x<0)
+            {
+                alert(x + ' là số nguyên âm');
+            }
+            else
+            {
+                alert(x + ' không phải là số nguyên âm');
+            }
+        }
+    </script>
+</body>
+</html>
