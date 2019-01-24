@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>kiểm tra xem ký tự bất kỳ đó có nằm trong mảng không</title>
+</head>
+<body>
+    <script>
+        var mang=['a','b','c','d','e','f'];
+        check();
+        function check()
+        {
+            var input=prompt('Nhập vào 1 chữ:');
+            count=0;
+            for(let x=0;x<mang.length;x++)
+            {
+                if(input==mang[x])
+                {
+                    count++;
+                }
+            }
+            if(count>0)
+            {
+                alert(count);
+            }
+            else
+            {
+                alert('-1');
+            }
+        }
+    </script>
+</body>
+</html>
