@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<script>
+    var mang = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15];
+    change();
+    function change()
+    {
+        var x = 0;
+        var y=mang.length-1;
+        var change=0;
+        while(x<=y)
+        {
+            change=mang[x];
+            mang[x]=mang[y];
+            mang[y]=change;
+            x++;
+            y--;
+        }
+        document.write(mang);
+    }
+</script>
+</body>
+</html>
