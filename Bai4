@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>kiểm tra xem ký tự nhập vào có phải là chữ in hoa</title>
+</head>
+<body>
+    <script>
+        check();
+        function check()
+        {
+            var x=(prompt('Nhập vào ký tự để kiểm tra ký tự có phải là chữ in hoa không:'));
+            var check=typeof x;
+            if(x===x.toLowerCase())
+            {
+                alert('x là chữ in thường');
+            }
+            else if(x===x.toUpperCase())
+            {
+                alert('x là chữ in hoa');
+            }
+        }
+    </script>
+</body>
+</html>
